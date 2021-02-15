@@ -1,1 +1,4 @@
-['#', '#dette er en tekst\n', '#dette er en tekst2\n', '#dette er en tekst3\n', '#dette er en tekst12']
+##dette er en tekst
+#dette er en tekst2
+#dette er en tekst3
+#dette er en tekst12

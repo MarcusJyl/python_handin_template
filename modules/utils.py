@@ -30,12 +30,12 @@ def print_emails(file_names):
 def write_headlines(md_files, out):
     lines = []
     for file in md_files:
-        with open(file, 'r') as read_file:
-            read_lines = read_file.readlines()
-            for line in read_lines:
-                if line.__contains__('#'): read_lines.append(line)
-    
-    with open(out, 'w') as write_file
-    for line in lines:
-    write_file.write(str(lines) + '\n')
+        with open(file) as read_file:
+            lines.append(read_file.readlines())
+    with open(out, 'w') as write_file:
+        for line in lines:
+            for thing in line:
+                if thing.__contains__('#'):
+                   
+                    write_file.write(thing)
      
