@@ -1,0 +1,5 @@
+#dette er en tekst
+detter en test 
+#dette er en tekst2
+#dette er en tekst3
+#dette er en tekst12
